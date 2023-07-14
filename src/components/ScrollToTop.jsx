@@ -24,16 +24,16 @@ function ScrollToTop() {
       sx={{
         display: show ? "flex" : "none",
         position: "fixed",
-        bottom: "20px",
+        bottom: "50px",
         right: "20px",
-        width: "60px",
-        height: "60px",
+        width: "40px",
+        height: "40px",
         backgroundColor: "#ff9945",
         borderRadius: "50%",
       }}
     >
       {" "}
-      <img src={top} alt="top" width="30px" />{" "}
+      <img src={top} alt="top" width="15px" />{" "}
     </Stack>
   );
 }
